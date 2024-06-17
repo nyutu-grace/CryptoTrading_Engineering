@@ -1,0 +1,19 @@
+{
+    "scene_name": "example_scene",
+    "params": {
+        "start_date": "2023-01-01",
+        "end_date": "2023-12-31",
+        "indicator": "sma",
+        "indicator_params": {
+            "window": 10
+        }
+    },
+    "metrics": {
+        "return": 0.15,
+        "number_of_trades": 50,
+        "winning_trades": 30,
+        "losing_trades": 20,
+        "max_drawdown": 0.1,
+        "sharpe_ratio": 1.25
+    }
+}
