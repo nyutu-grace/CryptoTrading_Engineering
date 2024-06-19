@@ -1,5 +1,3 @@
-# backend/backtesting/run_backtest.py
-
 import backtrader as bt
 import pandas as pd
 from backend.backtesting.strategies.sma_strategy import SmaCross
